@@ -1,0 +1,39 @@
+/* Estilo para el contenedor de los gráficos */
+.graph-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para las cajas de gráficos */
+  ion-card {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para las imágenes de los gráficos */
+  ion-img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para los input y select */
+  ion-input, ion-select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  ion-input:focus, ion-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none; 
+  }
+  
+  /* Estilo para los botones */
+  ion-button {
+    margin-top: 10px;
+  }
+  
